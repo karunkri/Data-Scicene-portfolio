@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 pip install category_encoders
 ```
-#### Data Preprocessing
+##### Data Preprocessing
 - Handling Missing Values:
   Missing values in the dataset are handled by filling them with the most appropriate values (e.g., using mode or mean).
 
@@ -58,7 +58,7 @@ data_final[numeric_columns] = data_final[numeric_columns].astype('int8')
 non_numeric_columns = data_final.select_dtypes(include=['object']).columns
 data_final[non_numeric_columns] = data_final[non_numeric_columns].astype('category')
 ```
-##### Feature Engineering
+###### Feature Engineering
 We have three actor columns (Actor 1, Actor 2, and Actor 3). These columns are merged and transformed into binary columns for each unique actor in the dataset.
 
 ###### Training the Model
