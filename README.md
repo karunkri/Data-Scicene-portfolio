@@ -70,7 +70,7 @@ model = LinearRegression()
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 ```
-####### Model Evaluation
+###### Model Evaluation
 The model is evaluated using metrics like Mean Squared Error (MSE) and R-squared (R²) to measure how well the model predicts movie ratings.
 ```
 from sklearn.metrics import mean_squared_error, r2_score
@@ -81,7 +81,7 @@ r2 = r2_score(y_test, y_pred)
 print(f"Mean Squared Error: {mse}")
 print(f"R-squared: {r2}")
 ```
-######## Contributors
+###### Contributors
 [https://github.com/karunkri]
 
 
