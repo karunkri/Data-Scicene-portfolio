@@ -12,13 +12,13 @@ Feature engineering: Working with columns like Genre, Director, and Actors to ex
 Modeling: Using regression models to predict the movie ratings.
 
 ### Table of Contents
--Project Overview
-+Installation
-*Data Preprocessing
--Feature Engineering
-+Training the Model
-*Model Evaluation
--Contributors
+- Project Overview
++ Installation
+* Data Preprocessing
+- Feature Engineering
++ Training the Model
+* Model Evaluation
+- Contributors
 
 
 ### Installation
