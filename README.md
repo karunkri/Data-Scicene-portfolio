@@ -82,5 +82,6 @@ print(f"Mean Squared Error: {mse}")
 print(f"R-squared: {r2}")
 ```
 ######## Contributors
+[https://github.com/karunkri]
 
 
