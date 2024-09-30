@@ -1,6 +1,4 @@
-# Encryptix
-# Data-Scicene-portfolio
-## Movie Rating Prediction Project
+# Movie Rating Prediction Project
 This repository contains code for predicting movie ratings based on features such as genre, director, and actors. 
 The goal of this project is to analyze historical movie data and develop a model that accurately estimates the rating given to a movie by users or critics.
 
